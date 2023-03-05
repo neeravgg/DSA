@@ -14,7 +14,7 @@ public:
 
         for (int i = 0; i < nums.size(); i++)
         {
-            mp[nums[i]] = mp[nums[i]] + 1;
+            mp[nums[i]] += 1;
 
             if (mp[nums[i]] > 1)
                 return true;

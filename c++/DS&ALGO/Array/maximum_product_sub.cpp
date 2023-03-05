@@ -9,7 +9,7 @@ int maxProduct(vector<int> &nums)
     int currmax = nums[0], currmin = nums[0], res = nums[0], temp;
     for (int i = 1; i < nums.size(); i++)
     {
-
+            
         temp = currmax;
         currmax = max({currmax * nums[i], currmin * nums[i], nums[i]});
         currmin = min({temp * nums[i], currmin * nums[i], nums[i]});

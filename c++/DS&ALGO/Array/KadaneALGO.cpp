@@ -17,7 +17,7 @@ int kadane(int a[], int size)
 }
 int main()
 {
-    int a[] = {-2, -3, -1};
+    int a[] = {2, 3, -1};
     int n = sizeof(a) / sizeof(a[0]);
 
     // Function Call

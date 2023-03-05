@@ -12,7 +12,7 @@ public:
 
         for (int i = 0; i < A.size(); i++)
         {
-            mp[A[i]] = mp[A[i]] + 1;
+            mp[A[i]] += 1;
             if (mp[A[i]] > 1)
             {
                 rep = A[i];

@@ -19,7 +19,7 @@ public:
         }
         return 1;
     }
-    int checkArray(int num){
+    int checkArray(int a[],int num){
         string str = to_string(num);
         int left = 0, right = str.length() - 1;
         while(left == right)
